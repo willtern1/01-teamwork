@@ -1,0 +1,27 @@
+@import url(../vendor/fonts/font.css);
+
+.body {
+  background-color: #ffffff;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0;
+  max-width: 2880px;
+  min-width: 320px;
+  font-family: 'SourceSansPro', sans-serif;
+}
+
+.header {
+
+}
+
+.header__list {
+
+}
+
+.header__list-link {
+
+}
