@@ -11,14 +11,14 @@
   margin: 0;
   max-width: 1920px;
   min-width: 320px;
-  font-family: 'SourceSansPro', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .header {
   max-width: 1920px;
   display: inline-flex;
   justify-content: space-between;
-  padding-top: 72px;
+  padding-top: 74px;
 
 }
 
@@ -36,24 +36,145 @@
 }
 
 .header__list-item:nth-child(1) {
-  padding-left: 30px;
+  padding-left: 28px;
 }
 
 .header__list-item:nth-child(2) {
-  padding-left: 53px;
+  padding-left: 52px;
 }
 
 .header__list-item:nth-child(3) {
-  padding-left: 56px;
+  padding-left: 51px;
 }
 
 .header__list-link {
   text-decoration: none;
   font-size: 21px;
+  color: black;
 }
 
 .header__complain {
   text-decoration: none;
   font-size: 21px;
-  padding-right: 105px;
+  padding-right: 101px;
+  color: black;
+}
+
+.content {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 126px;
+}
+
+.intro {
+  max-width: 1920px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "subtitle image"
+    "title  image";
+}
+
+.intro__subtitle {
+  grid-area: subtitle;
+}
+
+.intro__title {
+  grid-area: title;
+}
+
+.intro__image {
+  grid-area: image;
+  width: 532px;
+  height: 530px;
+}
+
+.places {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.place:nth-child(1) {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+  "image title"
+  "image paragraph"
+  "image paragraph"
+}
+
+.place:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+  "title image"
+  "paragraph image"
+  "paragraph image"
+}
+
+.place:nth-child(3) {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+  "image title"
+  "image paragraph"
+  "image paragraph"
+}
+
+.place__title {
+  grid-area: title;
+}
+
+.place__image {
+  grid-area: image;
+}
+
+.place__paragraph {
+  grid-area: paragraph;
+}
+
+.place__paragraph-text {
+
+}
+
+.people {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.people__subtitle {
+
+}
+
+.people__title {
+
+}
+
+.people__cards {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title title title title"
+  "text text text text"
+}
+
+.people__card {
+
+}
+
+.people__title {
+  grid-area: title;
+}
+
+.people__text {
+  grid-area: text;
 }
