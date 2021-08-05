@@ -64,15 +64,15 @@
   max-width: 1920px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 126px;
 }
 
 .intro {
   max-width: 1920px;
   display: grid;
+  gap: 0px 48px;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: 191px auto;
   grid-template-areas:
     "subtitle image"
     "title  image";
@@ -80,16 +80,28 @@
 
 .intro__subtitle {
   grid-area: subtitle;
+  margin: 0;
+  align-self: end;
+  font-size: 19px;
+  font-style: normal;
+  padding-left: 107px;
+  font-weight: 600;
+  color: #f5cfb9;
 }
 
 .intro__title {
   grid-area: title;
+  margin: 0;
+  font-size: 50px;
+  padding-left: 105px;
+  padding-top: 46px;
 }
 
 .intro__image {
   grid-area: image;
   width: 532px;
   height: 530px;
+  object-fit: cover;
 }
 
 .places {
