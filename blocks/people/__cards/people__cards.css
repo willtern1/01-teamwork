@@ -1,0 +1,10 @@
+.people__cards {
+  display: grid;
+  grid-template-columns: 396px 425px 396px 501px;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title title title title"
+  "text text text text";
+  margin-top: 176px;
+  margin-right: 0px;
+}

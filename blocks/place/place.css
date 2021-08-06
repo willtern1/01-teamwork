@@ -1,0 +1,32 @@
+.place:nth-child(1) {
+  gap: 0px 0px;
+  display: grid;
+  background-color: #f2f2f2;
+  grid-template-columns: auto 953px;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "image title"
+    "image paragraph";
+}
+
+.place:nth-child(2) {
+  gap:62px 0px;
+  display: grid;
+  background-color: #f2f2f2;
+  grid-template-columns: 952px auto;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title image"
+  "paragraph image"
+}
+
+.place:nth-child(3) {
+  gap: 0px 0px;
+  display: grid;
+  background-color: #f2f2f2;
+  grid-template-columns: auto 953px;
+  grid-template-rows: auto 581px;
+  grid-template-areas:
+    "image title"
+    "image paragraph";
+}

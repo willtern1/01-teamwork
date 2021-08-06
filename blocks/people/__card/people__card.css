@@ -1,0 +1,19 @@
+.people__card {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+
+}
+
+.people__card:nth-child(2) {
+  margin-left: 50px;
+}
+
+.people__card:nth-child(3) {
+  margin-left: 70px;
+}
+
+.people__card:nth-child(4) {
+  margin-left: 119px;
+}

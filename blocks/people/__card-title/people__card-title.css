@@ -1,0 +1,8 @@
+.people__card-title {
+  grid-area: title;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}

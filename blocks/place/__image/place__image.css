@@ -1,0 +1,7 @@
+.place__image {
+  grid-area: image;
+  margin: 0;
+  width: 952px;
+  height: 793px;
+  object-fit: cover;
+}

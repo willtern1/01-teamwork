@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 186px;
+  display: flex;
+  max-width: 1920px;
+  min-width: 320px;
+  height: 922px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: #f5cfb9;
+}

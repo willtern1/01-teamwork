@@ -1,0 +1,6 @@
+.place__paragraph {
+  grid-area: paragraph;
+  padding-top: 121px;
+  padding-left: 105px;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.header__list-item {
+  font-size: 21px;
+  list-style: none;
+}
+
+.header__list-item:nth-child(1) {
+  padding-left: 28px;
+}
+
+.header__list-item:nth-child(2) {
+  padding-left: 52px;
+}
+
+.header__list-item:nth-child(3) {
+  padding-left: 51px;
+}

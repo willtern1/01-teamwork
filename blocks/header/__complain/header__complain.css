@@ -1,0 +1,12 @@
+.header__complain {
+  text-decoration: none;
+  font-size: 21px;
+  padding-right: 101px;
+  color: black;
+  transition: .1s linear;
+}
+
+.header__complain:hover {
+  opacity: 0.5;
+  transition: .5s linear;
+}

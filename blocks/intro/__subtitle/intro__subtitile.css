@@ -1,0 +1,11 @@
+.intro__subtitle {
+  grid-area: subtitle;
+  margin: 0;
+  align-self: end;
+  font-size: 19px;
+  font-style: normal;
+  padding-left: 106px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: #f5cfb9;
+}
