@@ -1,19 +1,21 @@
 .people__card {
   display: flex;
+  max-width: 345px;
   flex-direction: column;
   align-content: flex-start;
   justify-content: flex-start;
+  margin-left: 103px;
 
 }
 
 .people__card:nth-child(2) {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .people__card:nth-child(3) {
-  margin-left: 70px;
+  margin-left: 122px;
 }
 
 .people__card:nth-child(4) {
-  margin-left: 119px;
+  margin-left: 193px;
 }

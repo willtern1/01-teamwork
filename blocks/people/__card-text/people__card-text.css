@@ -1,8 +1,7 @@
 .people__card-text {
-  grid-area: text;
   margin: 0;
-  padding-top: 38px;
-  font-size: 21px;
-  letter-spacing: 1.1px;
-  line-height: 30px;
+  padding-top: 37px;
+  font-size: 19px;
+  letter-spacing: 0.6px;
+  line-height: 30px
 }
