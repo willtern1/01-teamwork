@@ -19,3 +19,72 @@
 .people__card:nth-child(4) {
   margin-left: 193px;
 }
+
+@media screen and (max-width: 1280px) {
+  .people__card {
+    margin-left: 34px;
+  }
+  .people__card:nth-child(2) {
+    margin-left: 27px;
+  }
+
+  .people__card:nth-child(3) {
+    margin-left: 65px;
+  }
+
+  .people__card:nth-child(4) {
+    margin-left: 43px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .people__card {
+    margin-left: 0px;
+  }
+  .people__card:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .people__card:nth-child(3) {
+    margin-left: 0px;
+  }
+
+  .people__card:nth-child(4) {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .people__card {
+    margin-left: 43px;
+  }
+  .people__card:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .people__card:nth-child(3) {
+    margin-left: 0px;
+  }
+
+  .people__card:nth-child(4) {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .people__card {
+    margin-left: 0px;
+  }
+  .people__card:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .people__card:nth-child(3) {
+    margin-right: 78px;
+  }
+
+  .people__card:nth-child(4) {
+    margin-left: 0px;
+  }
+}
+

@@ -3,3 +3,21 @@
   flex-direction: row;
   margin-top: 146px;
 }
+
+@media screen and (max-width: 1024px) {
+  .people__cards {
+    gap: 67px;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .people__cards {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .people__cards {
+    flex-direction: column;
+  }
+}

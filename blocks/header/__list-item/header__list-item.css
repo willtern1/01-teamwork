@@ -14,3 +14,17 @@
 .header__list-item:nth-child(3) {
   padding-left: 51px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__list-item:nth-child(1) {
+    padding-left: 0px;
+  }
+
+  .header__list-item:nth-child(2) {
+    padding-left: 0px;
+  }
+
+  .header__list-item:nth-child(3) {
+    padding-left: 0px;
+  }
+}

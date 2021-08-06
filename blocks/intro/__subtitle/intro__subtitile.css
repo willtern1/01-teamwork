@@ -9,3 +9,21 @@
   letter-spacing: 0.6px;
   color: #f5cfb9;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__subtitle {
+    padding-left: 64px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .intro__subtitle {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__subtitle {
+    padding-left: 6px;
+  }
+}

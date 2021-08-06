@@ -4,3 +4,21 @@
   padding-left: 108px;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    padding-left: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .place__paragraph {
+    padding-left: 45px;
+  }
+}

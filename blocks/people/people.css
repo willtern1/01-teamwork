@@ -5,3 +5,17 @@
   flex-direction: column;
   margin-top: 205px;
 }
+
+@media screen and (max-width: 1115px) {
+  .people {
+    width: 100%;
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .people {
+    flex-direction: column;
+    align-items: center;
+  }
+}

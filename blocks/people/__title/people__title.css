@@ -6,3 +6,33 @@
   letter-spacing: 0.3px;
   margin-left: 101px;
 }
+
+@media screen and (max-width: 1280px) {
+  .people__title {
+    margin-right: 54px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .people__title {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .people__title {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .people__title {
+    margin-left: 38px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .people__title {
+    font-size: 36px;
+  }
+}

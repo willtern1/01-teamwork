@@ -6,3 +6,16 @@
   padding-left: 108px;
   letter-spacing: 1.0px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    padding-left: 45px;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .place__title {
+    margin-bottom: 95px;
+    padding-left: 28px;
+  }
+}
